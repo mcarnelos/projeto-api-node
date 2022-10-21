@@ -4,9 +4,17 @@
   "description": "API desenvolvida no programa Explorer da Rocketseat",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
   },
   "keywords": [],
   "author": "Murilo Cordeiro Carnelós",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1"
+  }
 }
