@@ -7,7 +7,8 @@ const usersRoutes = Router()
 //instanciando a classe
 const usersController = new UsersController()
 
-//rota post
-usersRoutes.post("/", usersController.create) 
+//rotas
+usersRoutes.post("/", usersController.create)
+usersRoutes.put("/:id", usersController.update)
 
 module.exports =  usersRoutes
