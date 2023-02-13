@@ -7,9 +7,7 @@ O projeto Api Node foi criado como desafio durante o programa Explorer da Rocket
 
 ## Diagrama
 
-<div align="center">
-img src="https://user-images.githubusercontent.com/25868167/197912807-7df90c5b-3917-4789-8e1b-5f1300ccf753.png" width="500px"
-</div>
+![diagrama sql](https://user-images.githubusercontent.com/25868167/197912807-7df90c5b-3917-4789-8e1b-5f1300ccf753.png)
 
 # Tecnologias utilizadas
 ## Back end
