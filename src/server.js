@@ -3,9 +3,9 @@ require("express-async-errors")
 
 const migrationsRun = require("./database/sqlite/migrations")
 const AppError = require("./utils/AppError")
+const uploadConfig = require("./configs/upload")
 
 const express = require("express")
-
 const routes = require("./routes")
 
 migrationsRun()
@@ -13,6 +13,9 @@ migrationsRun()
 //inicializando o express
 const app = express()
 app.use(express.json())
+
+//envia o avatar para a pasta uploads 
+app.use("/files", express.static(uploadConfig.UPLOADS_FOLDER))
 
 app.use(routes)
 
