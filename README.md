@@ -3,7 +3,10 @@
 
 # Sobre o projeto
 
-O projeto Api Node foi criado como desafio durante o programa Explorer da Rocketseat, onde foi proposto criar uma api em Node.js onde o usuário cadastra um filme, preenche com algumas informações (nome, descrição, nota) e cria tags relacionadas a ele. Foram aplicados diversos conceitos aprendidos como express, migrations, knex, criptografia de senhas, validação de e-mail, cascade, entre outros. Baseado no diagrama abaixo:
+O projeto Api Node foi criado como desafio durante o programa Explorer da Rocketseat, onde foi proposto criar uma api em Node.js para o Rocket Movies. Um site onde o usuário cadastra um filme, preenche com algumas informações (nome, descrição, nota) e cria tags relacionadas a ele. Foram aplicados diversos conceitos aprendidos como express, migrations, knex, criptografia de senhas, validação de e-mail, cascade, entre outros. Foi feito deploy do Back-end no Render e do Front-end no Netlify.
+
+# Link do Projeto
+https://siterocketmovies.netlify.app/
 
 ## Diagrama
 
